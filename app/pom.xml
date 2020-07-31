@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>provided-scope-class</artifactId>
+        <artifactId>multi-module-playground</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -41,7 +41,7 @@
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>generic-bean</artifactId>
+            <artifactId>generic-pet</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
@@ -78,21 +78,21 @@
 
     <profiles>
         <profile>
-            <id>beana</id>
+            <id>peta</id>
             <dependencies>
                 <dependency>
                     <groupId>org.example</groupId>
-                    <artifactId>bean-a</artifactId>
+                    <artifactId>pet-a</artifactId>
                     <version>1.0-SNAPSHOT</version>
                 </dependency>
             </dependencies>
         </profile>
         <profile>
-            <id>beanb</id>
+            <id>petb</id>
             <dependencies>
                 <dependency>
                     <groupId>org.example</groupId>
-                    <artifactId>bean-b</artifactId>
+                    <artifactId>pet-b</artifactId>
                     <version>1.0-SNAPSHOT</version>
                 </dependency>
             </dependencies>
