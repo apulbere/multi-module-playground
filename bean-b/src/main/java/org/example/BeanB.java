@@ -1,4 +1,4 @@
 package org.example;
 
-public class BeanB {
+public class BeanB implements GenericBean {
 }

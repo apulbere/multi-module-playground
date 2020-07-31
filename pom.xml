@@ -19,6 +19,7 @@
         <module>bean-a</module>
         <module>bean-b</module>
         <module>app</module>
+        <module>generic-bean</module>
     </modules>
 
 
